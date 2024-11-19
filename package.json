@@ -1,5 +1,5 @@
 {
-    "name": "team_3",
+    "name": "team_5",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -16,7 +16,7 @@
         "js",
         "mongodb"
     ],
-    "author": "oldakkaun4@gmail.com",
+    "author": "",
     "license": "ISC",
     "devDependencies": {
         "eslint": "^9.14.0",
