@@ -6,7 +6,10 @@ import {
     updateOrderController,
     deleteOrderController,
 } from "../../../../bek_team_3/team_3-Bekzod/src/controllers/index.js"
-import { authGuard, roleGuard } from "../../../../bek_team_3/team_3-Bekzod/src/middlewares/index.js"
+import {
+    authGuard,
+    roleGuard,
+} from "../../../../bek_team_3/team_3-Bekzod/src/middlewares/index.js"
 
 export const orderRouter = Router()
 

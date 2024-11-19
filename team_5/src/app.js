@@ -1,10 +1,6 @@
 import express from "express"
 import morgan from "morgan"
-import {
-    cartItemRouter,
-    cartRouter,
-    orderRouter,
-} from "./routes/index.js"
+import { cartItemRouter, cartRouter, orderRouter } from "./routes/index.js"
 
 const app = express()
 
@@ -15,7 +11,6 @@ app.use(morgan("dev"))
 app.use("/api/v1/cart", cartRouter)
 app.use("/api/v1/cartItem", cartItemRouter)
 app.use("/api/v1/order", orderRouter)
-
 
 app.use((err, req, res) => {
     if (err) {
